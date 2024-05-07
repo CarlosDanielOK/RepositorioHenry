@@ -1,0 +1,55 @@
+body {
+    background-color: red;
+}
+
+h4 {
+    background-color: blue;
+}
+
+.titulo {
+    font-size: 2em;
+}
+
+#tituloprincipal {
+    font-size: 5em;
+}
+
+.logo {
+    width: 200px;
+}
+
+#titulos {
+    border: 2px solid black;
+    /*viewport width = vw*/
+    width: 50vw; /*significa que siempre usara el 50% del total de la pantalla donde este*/
+    margin: auto;
+    padding: 3em;
+}
+
+.tarjetas {
+    border: 2px solid black;
+    width: fit-content; /*se ajusta el ancho al tamaño que tenga el contenido*/
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 1s; /*tiempo que tarda en hacer la transicion en hover*/
+    display: flex;
+    flex-direction: column; /*coloca los elementos en columna, es decir uno abajo del otro*/
+    gap: 1em; /*distancia entre un elemento y otro*/
+    align-items: center; /*se centran los elementos*/
+}
+
+.tarjetas:hover {
+    background-color: rgb(170, 24, 170);
+}
+
+#contenedor-tarjetas {
+    background-color: orange;
+    width: 85vw;
+    margin: auto; /*centra el contenedor*/
+    border: 2px solid black;
+    padding: 2em;
+    /*FLEXBOX*/
+    display: flex;
+    flex-direction: row; /*los posiciona uno al lado del otro*/
+    justify-content: space-evenly;
+}
