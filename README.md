@@ -1,2 +1,2 @@
 # RepositorioHenry
-Resolviendo el C2
+Resolviendo el C1, C2, C3, C4.
